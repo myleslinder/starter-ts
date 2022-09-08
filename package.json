@@ -28,7 +28,8 @@
     "lint": "eslint --cache --cache-location ./node_modules/.cache/eslint .",
     "typecheck": "tsc -b",
     "prepublishOnly": "pnpm run build",
-    "test": "vitest"
+    "test": "vitest",
+    "v:patch": "npm version patch"
   },
   "tsup": {
     "entry": [
