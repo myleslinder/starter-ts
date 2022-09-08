@@ -29,7 +29,8 @@
     "typecheck": "tsc -b",
     "prepublishOnly": "pnpm run build",
     "test": "vitest",
-    "v:patch": "npm version patch"
+    "v:patch": "npm version patch",
+    "update:check": "pnpm dlx taze"
   },
   "tsup": {
     "entry": [
